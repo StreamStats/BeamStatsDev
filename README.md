@@ -4,7 +4,5 @@
 [![Bacon_Space](https://img.shields.io/badge/StreamStats-Bacon__Space-blue.svg)](https://beam.pro/Bacon_Space)
 [![Rushmead](https://img.shields.io/badge/StreamStats-Rushmead-blue.svg)](https://beam.pro/Rushmead)
 [![AmTraxTGE](https://img.shields.io/badge/StreamStats-AmTraxTGE-blue.svg)](https://beam.pro/AmTraxTGE)
-[![MadeForBeamers](https://img.shields.io/badge/StreamStats-BeamStatsDev-Made For Beamers-blue.svg)](http://twitter.com/TheStreamStats)
-
-Made For Beamers
+[![MadeForBeamers](https://img.shields.io/badge/StreamStat-Made For Beamers-blue.svg)](http://twitter.com/TheStreamStats)
 
