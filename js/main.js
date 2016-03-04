@@ -19,7 +19,7 @@ function getData(){
          var Experience = data['user']['experience'];
          var lvls = data['user']['level'];
          var Sparks = data['user']['sparks'];
-         var Role = data['user']['groups']['name']['0'];
+         var Role = data['user']['groups'][0];
          var ChannelID = data['user']['id'];
          var Tetrisid = data['tetrisGameId'];
          var Coverid = data['coverId'];
