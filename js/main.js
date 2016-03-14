@@ -11,6 +11,7 @@ $(document).ready(function(event){
 function getData(){
     $.get('https://beam.pro/api/v1/channels/' + $('#inputText').val(), "", function(data){
          var Avatar = "https://beam.pro/api/v1/users/" + data['user']['id'] + "/avatar";
+         var Test = "https://beam.pro/api/v1/channels/" + data['user']['id.'] + "/followed/channel.id/channel";
          var Username = data['user']['username'];
          var Followers = data['numFollowers'];
          var Partnered = data['partnered'];
@@ -42,6 +43,7 @@ function getData(){
          html += '<br><b><span class="label label-warning">----------</b>'
           html += '<br><b><span class="label label-primary"><font size="3" color="white">Url Link: <a href="https://beam.pro/' + Username + '">Beam.pro/'+ Username +'</a></b>';
          html += '<br><b><span class="label label-primary">Followers: ' + Followers+ '</b>';
+         html += '<br><b><span class="label label-primary">Followers: ' + Test+ '</b>';
          html += '<br><b><span class="label label-primary">User Role: ' + Role+ '</b>';
          html += '<br><b><span class="label label-primary">Partnered: ' + Partnered +'</b>';
          html += '<br><b><span class="label label-primary">Total Views: ' + TotalViews +'</b>';
