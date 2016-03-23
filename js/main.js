@@ -19,7 +19,6 @@ function getData(){
          var Experience = data['user']['experience'];
          var lvls = data['user']['level'];
          var Sparks = data['user']['sparks'];
-         var Roles = data.['user']['groups'];
          var ChannelID = data['user']['id'];
          var Tetrisid = data['tetrisGameId'];
          var Coverid = data['coverId'];
@@ -42,7 +41,6 @@ function getData(){
          html += '<br><b><span class="label label-warning">----------</b>'
           html += '<br><b><span class="label label-primary"><font size="3" color="white">Url Link: <a href="https://beam.pro/' + Username + '">Beam.pro/'+ Username +'</a></b>';
          html += '<br><b><span class="label label-primary">Followers: ' + Followers+ '</b>';
-         html += '<br><b><span class="label label-primary">User Role: ' + Role+ '</b>';
          html += '<br><b><span class="label label-primary">Partnered: ' + Partnered +'</b>';
          html += '<br><b><span class="label label-primary">Total Views: ' + TotalViews +'</b>';
          html += '<br><b><span class="label label-danger">---Points---</b>'
