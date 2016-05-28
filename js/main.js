@@ -29,6 +29,7 @@ function getData(){
          var TweetNotify = data['preferences']['channel:tweet:enabled'];
          var TotalViews = data['viewersTotal'];
          var te = data['transcodingEnabled'];
+         var SShost= data['hosteeId']
          var Online = data['online'];
          if(data['type'] != null){
             var lastPlayed = data['type']['name'];
@@ -36,6 +37,10 @@ function getData(){
             var lastPlayed = "None";
          }
          var joined = data['createdAt'];
+         
+                    if(SShost == ""){
+            var SShost = "None"
+        }
          var html = '<center><img src="' + Avatar + '"width="100px" height="100px" style="border:3px solid #fff">';
          html += '<h1><span class="label label-success">' + Username + '</h1>';
          html += '<br><b><span class="label label-warning">----------</b>'
@@ -52,6 +57,7 @@ function getData(){
          html += '<br><b><span class="label label-primary">Channel ID: ' + ChannelID+ '</b>';
          html += '<br><b><span class="label label-primary">Cover ID: ' + Coverid+ '</b>';
          html += '<br><b><span class="label label-primary">Thumbnail ID: ' + Thumbnail+ '</b>';
+         html += '<br><b><span class="label label-primary">Host ID: ' + SShost+ '</b>';
          html += '<br><b><span class="label label-warning">---Preference---</b>'
          html += '<br><b><span class="label label-primary">interactive:' + Tetris +'</b>';
          html += '<br><b><span class="label label-primary">Audience:' + Audience +'</b>';
