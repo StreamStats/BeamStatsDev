@@ -39,7 +39,7 @@ function getData(){
          var joined = data['createdAt'];
          
                     
-            var SShost = "None"
+            var SShost = "False"
             if(SShost == "null"){
         }
          var html = '<center><img src="' + Avatar + '"width="100px" height="100px" style="border:3px solid #fff">';
